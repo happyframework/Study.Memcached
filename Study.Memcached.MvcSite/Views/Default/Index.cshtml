@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Index";
+
+    this.Session["username"] = "段光伟";
+}
+
+<h2>session id: @(this.Session.SessionID)</h2>
+<h2>session key【username】已经存储！</h2>
+<h2>@Html.ActionLink("读取session", "ReadSession")</h2>

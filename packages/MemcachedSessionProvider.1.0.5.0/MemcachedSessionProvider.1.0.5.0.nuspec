@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MemcachedSessionProvider</id>
+    <version>1.0.5.0</version>
+    <title>MemcachedSessionProvider</title>
+    <authors>Rohit Agarwal</authors>
+    <owners>Rohit Agarwal</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/rohita/MemcachedSessionProvider</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A highly available, high performance ASP.NET session state store provider using Memcached.</description>
+    <copyright>Copyright 2014 Rohit Agarwal</copyright>
+    <tags>asp.net session provider sessionstate memcached</tags>
+    <dependencies>
+      <dependency id="EnyimMemcached" version="2.12" />
+    </dependencies>
+  </metadata>
+</package>
